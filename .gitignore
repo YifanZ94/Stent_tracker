@@ -1,10 +1,27 @@
-# Ignore everything
+# Ignore everything by default
 *
 
-# But NOT these files:
+# But NOT these specific file types:
 !.py
 !.txt
 !.m
 
-# Allow directories (so .mat, .py, .txt in subfolders are tracked)
+# Allow directories (so .py, .txt, .m files in subfolders are tracked)
 !*/
+
+# Explicitly ignore common non-essential files
+*.log
+*.tmp
+*.cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.DS_Store
+Thumbs.db
