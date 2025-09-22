@@ -2,7 +2,6 @@
 *
 
 # But NOT these files:
-!.mat
 !.py
 !.txt
 !.m
