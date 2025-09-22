@@ -5,6 +5,7 @@
 !.mat
 !.py
 !.txt
+!.m
 
 # Allow directories (so .mat, .py, .txt in subfolders are tracked)
 !*/
