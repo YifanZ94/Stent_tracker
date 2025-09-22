@@ -1,0 +1,8 @@
+Test1: fast, H=13
+
+Test4: fast, H=9
+
+Test2: fast, H=13
+Test3: slow H=13
+
+Test5: slow, H=9

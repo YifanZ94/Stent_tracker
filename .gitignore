@@ -2,9 +2,9 @@
 *
 
 # But NOT these specific file types:
-!.py
-!.txt
-!.m
+!*.py
+!*.txt
+!*.m
 
 # Allow directories (so .py, .txt, .m files in subfolders are tracked)
 !*/
