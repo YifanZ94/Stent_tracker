@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But NOT these files:
+!.mat
+!.py
+!.txt
+
+# Allow directories (so .mat, .py, .txt in subfolders are tracked)
+!*/
